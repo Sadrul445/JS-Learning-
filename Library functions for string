@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Java-S</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <script>
+            //Library functions for string
+            
+            
+            // .length     
+            
+            var firstName = "Sadrul";
+            document.write("Number of character: " + firstName.length);     // (.length) is the length of the variable name. e.g. Output of Sadrul length is = 6   
+            
+            //.charAt()
+            
+            var country = "Bangladesh";
+            document.write(country.charAt(3)); 
+            //.charAt diye j string( always ' 0 ' theke count hbe) ta dewa asche tar number 3 word ta shudhu output e dekhabe.e.g. output ashbe "g"
+            
+            //.toUpperCase()
+            //toLowerCase()
+            //.slice()
+            
+             //concat() means concatenation
+             var t1 = "Bangladesh ";
+             var t2 = "is a beautiful country";
+             document.write(t1.concat(t2));
+       </script>
+    </body>
+</html>
+<!--
+
+    [[[[[[[[[[[[[[[      ]]]]]]]]]]]]]]]
+    [::::::::::::::      ::::::::::::::]
+    [::::::::::::::      ::::::::::::::]
+    [::::::[[[[[[[:      :]]]]]]]::::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[      JAVA-SCRIPT     ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [::::::[[[[[[[:      :]]]]]]]::::::]
+    [::::::::::::::      ::::::::::::::]
+    [::::::::::::::      ::::::::::::::]
+    [[[[[[[[[[[[[[[      ]]]]]]]]]]]]]]]
+
+-->
