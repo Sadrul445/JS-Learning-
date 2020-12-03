@@ -11,10 +11,10 @@
             var d = new Date();
             var time = d.getHours();
             
-            if(time > 12){  //12 tar kom hole Output: Morning 
+            if(time < 12){                                    //12 tar theke time kom hole Output: Morning 
                document.write("<h1>Good Morning !! </h1>");
                }
-            else if(time >= 12 && time <= 15 )              // nahoi 12ta theke 12(3ta) porjnto Output: Noon  
+            else if(time >= 12 && time < 16 )              // nahoi 12ta time beshi hole and(&&) 16(4ta) theke time kom hole Output: Noon  
                 document.write("<h1>Good Noon !! </h1>")
             else
                 document.write("<h1>Good Day !! </h1>")
