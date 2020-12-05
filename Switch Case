@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Java-S</title>
+    </head>
+    <body>
+        <script>
+            var letter = prompt("Enter your letter : ");
+            letter = letter.toLowerCase(); //.toLowerCase() ei function ti capital or small both latter k small latter e find out korbe 
+            
+           switch(letter){
+                   case'a':
+                   alert("vowel");
+                   break;
+                    case'e':
+                   alert("vowel");
+                   break;
+                    case'i':
+                   alert("vowel");
+                   break;
+                    case'o':
+                   alert("vowel");
+                   break;
+                    case'u':
+                   alert("vowel");
+                   break;
+               default:
+                   alert("consonant")
+           }
+            
+        </script>
+    </body>
+</html>
+<!--
+
+    [[[[[[[[[[[[[[[      ]]]]]]]]]]]]]]]
+    [::::::::::::::      ::::::::::::::]
+    [::::::::::::::      ::::::::::::::]
+    [::::::[[[[[[[:      :]]]]]]]::::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[        Swith         ]:::::]
+    [:::::[      Statement       ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [::::::[[[[[[[:      :]]]]]]]::::::]
+    [::::::::::::::      ::::::::::::::]
+    [::::::::::::::      ::::::::::::::]
+    [[[[[[[[[[[[[[[      ]]]]]]]]]]]]]]]
+
+-->
