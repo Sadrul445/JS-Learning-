@@ -34,6 +34,27 @@
         </script>
     </body>
 </html>
+
+            ///////  mulpile easy way te code effeciency er jnno korle evaveo kora jay
+/* 
+        <script>
+            var letter = prompt("Enter your letter : ");
+            letter = letter.toLowerCase(); //.toLowerCase() ei function ti capital or small both latter k small latter e find out korbe 
+            
+           switch(letter){
+                   case'a':         
+                   case'e':
+                   case'i':
+                   case'o':  
+                   case'u':
+                    alert("vowel");
+                   break;
+               default:
+                   alert("consonant");
+           }
+            
+        </script> 
+*/
 <!--
 
     [[[[[[[[[[[[[[[      ]]]]]]]]]]]]]]]
