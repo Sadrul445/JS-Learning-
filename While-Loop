@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Java-S</title>
+    </head>
+    
+    <style>
+        body{
+            background-color: antiquewhite;
+        }
+    </style>
+    
+    <body>
+                    
+        <script> 
+                var x = 1 ;            //while-loop er khetre initial or starting part first e likhte hobe
+            
+            while(x <= 5)              //5 bar user input newar jonno condition part ekhane thakbe
+            
+            {
+                
+            var num1 = parseFloat(prompt("Enter Your First  Number : "));
+            var num2 = parseFloat(prompt("Enter Your Second Number : "));
+            var sum = num1 + num2 ;
+            
+                x = x + 1 ;             //updating part ta {} er vitore thakbe
+                
+            document.write(" Total =$" +sum.toFixed(2)); 
+                
+//Total =$22.50 Total =$35.00 Total =$30.00 Total =$80.00 Total =$300.00
+            }
+        </script>
+        
+    </body>
+</html>
+<!--
+
+    [[[[[[[[[[[[[[[      ]]]]]]]]]]]]]]]
+    [::::::::::::::      ::::::::::::::]
+    [::::::::::::::      ::::::::::::::]
+    [::::::[[[[[[[:      :]]]]]]]::::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[     While Loop       ]:::::]
+    [:::::[      Statement       ]:::::]
+    [:::::[     (User Input)     ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [::::::[[[[[[[:      :]]]]]]]::::::]
+    [::::::::::::::      ::::::::::::::]
+    [::::::::::::::      ::::::::::::::]
+    [[[[[[[[[[[[[[[      ]]]]]]]]]]]]]]]
+
+-->
