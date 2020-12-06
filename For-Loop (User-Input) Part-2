@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Java-S</title>
+    </head>
+    
+    <style>
+        body{
+            background-color: antiquewhite;
+        }
+    </style>
+    
+    <body>
+        
+        <script>
+            
+            for(var x = 1 ; x <=5 ; x++) // 5 bar user input newar jonno
+            
+            {
+                
+            var num1 = parseFloat(prompt("Enter Your First  Number : "));
+            var num2 = parseFloat(prompt("Enter Your Second Number : "));
+            var sum = num1 + num2 ;
+            
+            document.write(" Total =$" +sum.toFixed(2));  
+              
+   //OutPut: Total =$22.50 Total =$35.00 Total =$30.00 Total =$80.00 Total =$300.00
+            
+            }
+        </script>
+        
+    </body>
+</html>
+<!--
+
+    [[[[[[[[[[[[[[[      ]]]]]]]]]]]]]]]
+    [::::::::::::::      ::::::::::::::]
+    [::::::::::::::      ::::::::::::::]
+    [::::::[[[[[[[:      :]]]]]]]::::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[       For Loop       ]:::::]
+    [:::::[      Statement       ]:::::]
+    [:::::[     (User Input)     ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [::::::[[[[[[[:      :]]]]]]]::::::]
+    [::::::::::::::      ::::::::::::::]
+    [::::::::::::::      ::::::::::::::]
+    [[[[[[[[[[[[[[[      ]]]]]]]]]]]]]]]
+
+-->
