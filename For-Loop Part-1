@@ -22,7 +22,7 @@
                                                    //again when, sum(1)= sum(1) + i(2) , sum=3 
                                                    //again when, sum(3)= sum(3) + i(3) , sum=6 
                                                    //again when, sum(6)= sum(6) + i(4) , sum=10 
-                                                   //again when, sum(10)=sum(10)+ i(5) , sum=15 
+                                                  //again when, sum(10)= sum(10)+ i(5) , sum=15 
                 
-                                      //OutPut : 155
+                                      //OutPut : 15
             
