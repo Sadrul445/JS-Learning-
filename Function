@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Java-S</title>
+    </head>
+    
+    <style>
+        body{
+            background-color: antiquewhite;
+        }
+    </style>
+    
+    <body>
+                    
+        <script> 
+            
+            //base of Function
+            
+            function square(num1,num2){
+                var result = num1 * num2;
+                return result;
+            }
+            document.write("Result is : " + square(5,6) + "<br>");
+            
+            
+            
+            
+        /////simple calculation using function    
+        
+            
+            function addition(x,y)  
+            {
+                var add = x + y;
+                document.write("Sum is : " +add + "<br>")
+            }
+            
+            addition(10,20);
+            
+            function subtraction(x,y)  
+            {
+                var sub = x - y;
+                document.write("Sub is : " +sub + "<br>")
+            }
+            
+            subtraction(100,20);
+            
+            function multiplication(x,y){
+                var mul = x * y;
+                document.write("mul is : " + mul);
+            }
+            multiplication(10,10);
+        </script>
+        
+    </body>
+</html>
+<!--
+
+    [[[[[[[[[[[[[[[      ]]]]]]]]]]]]]]]
+    [::::::::::::::      ::::::::::::::]
+    [::::::::::::::      ::::::::::::::]
+    [::::::[[[[[[[:      :]]]]]]]::::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[      function        ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [::::::[[[[[[[:      :]]]]]]]::::::]
+    [::::::::::::::      ::::::::::::::]
+    [::::::::::::::      ::::::::::::::]
+    [[[[[[[[[[[[[[[      ]]]]]]]]]]]]]]]
+
+-->
