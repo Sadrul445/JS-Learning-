@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Java-S</title>
+    </head>
+    
+    <style>
+        body{
+            background-color: antiquewhite;
+        }
+    </style>
+    
+    <body>
+                   
+        <script> 
+            
+            var names = ["Sadrul"," Tanim"," Chowdhury"," liza"," Saif"];
+            
+            document.write("<b>Name list is : </b>" + names + "<br>");              //OutPut= Name list is : Sadrul, Tanim, Chowdhury, liza, Saif
+            document.write("Name list length is : " + names.length + "<br>");       //OutPut= Name list length is : 5
+            
+            names.push(" Jorina");                                                  //jorina Add hobe last theke 
+            document.write("<b>Name list is : </b>" + names + "<br>");              //Output=Name list is : Sadrul, Tanim, Chowdhury, liza, Saif, Jorina
+            document.write("Name list length is : " + names.length + "<br>");       //Updated list length pawa jabe  //OutPut= Name list length is : 6
+            
+            names.pop();                                                            //jorina remove hobe  
+            document.write("<b>Name list is : </b>" + names);                       //Output=Name list is : Sadrul, Tanim, Chowdhury, liza, Saif
+            
+        </script>
+        
+    </body>
+</html>
+<!--
+
+    [[[[[[[[[[[[[[[      ]]]]]]]]]]]]]]]
+    [::::::::::::::      ::::::::::::::]
+    [::::::::::::::      ::::::::::::::]
+    [::::::[[[[[[[:      :]]]]]]]::::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[      Array           ]:::::]
+    [:::::[      PUSH()          ]:::::]
+    [:::::[      POP()           ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [::::::[[[[[[[:      :]]]]]]]::::::]
+    [::::::::::::::      ::::::::::::::]
+    [::::::::::::::      ::::::::::::::]
+    [[[[[[[[[[[[[[[      ]]]]]]]]]]]]]]]
+
+-->
