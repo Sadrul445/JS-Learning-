@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Java-S</title>
+    </head>
+    
+    <style>
+        body{
+            background-color: antiquewhite;
+        }
+    </style>
+    
+    <body>
+        <h1> Object </h1>
+
+        <script> 
+          var patient1 = new Patient("Mr.Rahim " , 43 , " Male");
+          var patient2 = new Patient("Mrs.Rahima " , 33 , " Female");
+          var patient3 = new Patient("Mr.Karim " , 53 , " Male");    
+            
+        function Patient(name,age,sex){
+                this.name = name;
+                this.age = age ; 0
+                this.sex = sex ;
+                
+                    this.display = function(){
+                        document.write(this.name);
+                        document.write(this.age);
+                        document.write(this.sex);
+                }
+            }
+                   patient1.display();
+                   patient2.display();
+                   patient3.display();
+        </script>
+        
+    </body>
+</html>
+<!--
+
+    [[[[[[[[[[[[[[[      ]]]]]]]]]]]]]]]
+    [::::::::::::::      ::::::::::::::]
+    [::::::::::::::      ::::::::::::::]
+    [::::::[[[[[[[:      :]]]]]]]::::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[        Object        ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [::::::[[[[[[[:      :]]]]]]]::::::]
+    [::::::::::::::      ::::::::::::::]
+    [::::::::::::::      ::::::::::::::]
+    [[[[[[[[[[[[[[[      ]]]]]]]]]]]]]]]
+
+-->
