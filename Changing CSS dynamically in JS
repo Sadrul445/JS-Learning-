@@ -1,0 +1,56 @@
+                             <!--HTML CODE-->>
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="index.css">
+        <title>Java-S</title>
+    </head>    
+    <body>
+        <p class="para" style="font-size: 4rem;">Hello BanglaDesh </p>
+
+        <button onclick="addStyle()">Add FontStyle</button>
+        <button onclick="removeStyle()">Remove FontStyle</button>
+<script src="index.js"></script>
+        
+    </body>
+</html>
+
+
+
+                              /* CSS-CODE */
+        
+        
+        
+body{
+    background-color: antiquewhite;
+}
+.para-style{
+    font-size: 4rem;
+    font-style: italic;
+    font-weight: bold;
+    color: red;
+}
+
+
+
+
+        //////////////////////// JS-CODE ////////////////////////
+
+var MyVar = document.querySelector(".para"); //kon class hobe sheta find korte hbe first e 
+
+function addStyle(){
+    MyVar.classList.add("para-style");      
+        
+        //.classList diye class ber korte use kora hoy
+        //.add means add kora  css class k
+        //css er moddhe j class call dbo sheta likhte hbe
+
+}   
+
+function removeStyle(){
+    MyVar.classList.remove("para-style");       //.remove means remove kora  css class k
+
+}
