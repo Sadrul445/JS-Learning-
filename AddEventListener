@@ -1,0 +1,53 @@
+                            
+                   //JS-CODE
+
+var MyVar = document.querySelector(".para");                //kon class hobe sheta find korte hbe first e 
+MyVar.addEventListener("mouseover",function(){ 
+                                                             //addEventListener diye (mouserover,mouseout,click etc add korte hbe qtation mark er mddhe)
+                                                              //mouseover means when cursor going in the paragraph, it will will changing the style
+
+    MyVar.classList.add("para-style");                      //css class name add korte hbe ekhane
+
+})
+MyVar.addEventListener("mouseout",function(){               //anonymous function call kore mouseout dile ager moton hoye jabe font type
+
+    MyVar.classList.remove("para-style");
+
+})
+
+                  <!--HTML CODE-->
+                  
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="index.css">
+        <title>Java-S</title>
+    </head>    
+    <body>
+        <p class="para" style="font-size: 4rem;">Hello BanglaDesh </p>
+
+        
+<script src="index.js"></script>
+        
+    </body>
+</html>
+
+
+                  /* CSS-code */
+              
+              
+body{
+    background-color: rgb(9, 9, 39);
+}
+.para-style{
+    font-size: 4rem;
+    font-style: italic;
+    font-weight: bold;
+    color: orangered;
+}
+              
+              
+        
